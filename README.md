@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/asu-cis-capstone/design-it.png?label=ready&title=Ready)](https://waffle.io/asu-cis-capstone/design-it)
 # design-it
 repo for team design-it
 
