@@ -18,4 +18,4 @@ number of active users,
 overall purchases
 
 Milestone 1 Measurement Plan:
-Number of people who signed up: 10/30 = 33%
+</ br>Number of people who signed up: 10/30 = 33%
