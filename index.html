@@ -2,23 +2,58 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<!--mobile first bootstrap-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Design it</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
-
+		<link rel="icon" href="image/favicon.ico">
+		
 
 	</head>
 	<body>
-		<div id="header">
-			<img src="picture/logo.png" alt="LOGO" style="width:200px;height:200px;">
+	<div class="container">
 
-			<button type="button">Sign up</button>
-			<button type="button">Log in</button>
+		<div id="header" class="row">
+			<div class="col-sm-1">
+				<img  src="image/logo.png" alt="LOGO" style="width:200px;height:200px;">
+			</div>
+			<div class="col-sm-9">
+
+			</div>
+			<div class="col-sm-1">
+				<button  type="button">Sign up</button>
+			</div>
+			<div class="col-sm-1">
+				<button type=sm"button">Log in</button>
+			</div>
+			
 
 		</div>
 
-		<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+		<div id="center" class="row">
+			<div>
+				<h1>Welcome!</h1>
+			</div>
+			<div>
+				<ul style="list-style-type:none">
+					<li>Design-it home</li>
+					<li>Interior Inspiration</li>
+					<li>Design Specialists</li>
+				</ul>
+			</div>
+			<div>					
+				<ul style="list-style-type:none">
+					<li>Please begin to start your</li>
+					<li>home decoration style quiz</li>
+					<li><button type="button">Let's begin</button></li>
+				</ul>
+			</div>			
+		</div>
 
+		<div id="bottom" class="row">
+			
+		</div>	
+	</div>
 	</body>
 </html>
