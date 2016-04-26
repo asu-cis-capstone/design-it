@@ -17,5 +17,6 @@ percentage of people who sign up,
 number of active users,
 overall purchases
 
-Milestone 1 Measurement Plan:
+Sprint 1 Measurement Plan:
+
 Number of people who signed up: 10/30 = 33%
