@@ -51,10 +51,10 @@
                 <ul class="nav navbar-nav navbar-right">
                    
                     <li>
-                        <a href="../login/signup.html">Sign up</a>
+                        <a href="#">Hello, Hao</a>
                     </li>
                     <li>
-                        <a href="../login/login.html">Log in</a>
+                        <a href="../login/login.html">Log out</a>
                     </li>
                 </ul>
             </div>
@@ -65,9 +65,9 @@
     
     <!-- -->
     <div class = "container">
-        <h1>INTERIOR DESIGN STYLE</h1>
-        <ol>
-          <li>I identify as ___.
+        <h1 class="page-header">INTERIOR DESIGN STYLE</h1>
+        <ol style="font-size: 150%;">
+          <li>I identify as ___.</li>
             <br />
             <input type="radio" id="male" name="gender" value="male" 
             title="I identify as" onfocus="malemsg()" onclick="malemsg()" />
@@ -78,88 +78,97 @@
             Female
             <br />
 
-          </li>
           
-          <li>The style I prefer ___.
+          <br />
+          <li>
+          The style I prefer ___. 
+          </li>
+          <br />
+              <div class="row">
+
+                <div class="col-lg-4">
+                    <img src="../img/classic.png" alt="Classic/Timeless" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="classic" name="style" value="classic" title="The style I prefer" onfocus="classicmsg()" onclick="classicmsg()" />                   
+                    Classic/Timeless                   
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/modern.jpg" alt="Modern/Contemporary" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="modern" name="style" value="modern" title="The style I prefer" onfocus="modernmsg()" onclick="modernmsg()" />                   
+                    Modern/Contemporary
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/mix.png" alt="Mix" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="mix" name="style" value="mix" 
+                    title="The style I prefer" onfocus="mixmsg()" onclick="mixmsg()" />                   
+                    A mix of the two                   
+                </div>
+              </div>
+          <br />
+            
+          <li>When it comes to furniture and decoration in my home, I think that ___.</li>
             
             <br />
-            <img src="../img/classic.png" alt="Classic/Timeless" width="500" height="295">
-            <br />
-            <input type="radio" id="classic" name="style" value="classic" 
-            title="The style I prefer" onfocus="classicmsg()" onclick="classicmsg()" />
-            Classic/Timeless
+                <div class="row">
+
+                <div class="col-lg-4">
+                    <img src="../img/less.png" alt="Less" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="less" name="lessormore" value="less" 
+                    title="More or Less" onfocus="lessmsg()" onclick="lessmsg()" />
+                    Less is more                 
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/balanced.png" alt="Balanced" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="balanced" name="lessormore" value="balanced" 
+                    title="More or Less" onfocus="balancedmsg()" onclick="balancedmsg()" />
+                    Balanced
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/more.png" alt="More" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="more" name="lessormore" value="more" 
+                    title="More or Less" onfocus="moremsg()" onclick="moremsg()" />
+                    The more, the better                   
+                </div>
+              </div>
+
+              <br />
+
+          <li>When it comes to color in my home, I prefer ___.</li>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <img src="../img/neutral.png" alt="Neutral" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="neutral" name="color" value="neutral" 
+                    title="Color" onfocus="neutralmsg()" onclick="neutralmsg()" />
+                    Neutral              
+                </div>
+                <div class="col-lg-4">
+                   <img src="../img/somecolor.png" alt="SomeColor" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="somecolor" name="color" value="somecolor" 
+                    title="Color" onfocus="somecolormsg()" onclick="somecolormsg()" />
+                    Some color
+                </div>
+                <div class="col-lg-4">
+                    <img src="../img/bolderandbrighter.png" alt="BorderAndBrighter" width="300px" height="200px">
+                    <br />
+                    <input type="radio" id="bolderandbrighter" name="color" value="bolderandbrighter" 
+                    title="Color" onfocus="bolderandbrightermsg()" onclick="bolderandbrightermsg()" />
+                    Bolder and brighter                  
+                </div>
+            </div>
+
             <br />
 
-            <img src="../img/modern.png" alt="Modern/Contemporary" width="300" height="450">
-            <br />
-            <input type="radio" id="modern" name="style" value="modern" 
-            title="The style I prefer" onfocus="modernmsg()" onclick="modernmsg()" />
-            Modern/Contemporary
-            <br />
-
-            <img src="../img/mix.png" alt="Mix" width="500" height="385">
-            <br />
-            <input type="radio" id="mix" name="style" value="mix" 
-            title="The style I prefer" onfocus="mixmsg()" onclick="mixmsg()" />
-            A mix of the two
-            <br />
-
-          </li>
-
-          <li>When it comes to furniture and decoration in my home, I think that ___.
+          <li>I plan to move ___.</li>
             
-            <br />
-            <img src="../img/less.png" alt="Less" width="500" height="333">
-            <br />
-            <input type="radio" id="less" name="lessormore" value="less" 
-            title="More or Less" onfocus="lessmsg()" onclick="lessmsg()" />
-            Less is more
-            <br />
-
-            <img src="../img/balanced.png" alt="Balanced" width="500" height="313">
-            <br />
-            <input type="radio" id="balanced" name="lessormore" value="balanced" 
-            title="More or Less" onfocus="balancedmsg()" onclick="balancedmsg()" />
-            Balanced
-            <br />
-
-            <img src="../img/more.png" alt="More" width="500" height="373">
-            <br />
-            <input type="radio" id="more" name="lessormore" value="more" 
-            title="More or Less" onfocus="moremsg()" onclick="moremsg()" />
-            The more, the better
-            <br />
-
-          </li>
-
-          <li>When it comes to color in my home, I prefer ___.
-            
-            <br />
-            <img src="../img/neutral.png" alt="Neutral" width="500" height="333">
-            <br />
-            <input type="radio" id="neutral" name="color" value="neutral" 
-            title="Color" onfocus="neutralmsg()" onclick="neutralmsg()" />
-            Neutral
-            <br />
-
-            <img src="../img/somecolor.png" alt="SomeColor" width="500" height="313">
-            <br />
-            <input type="radio" id="somecolor" name="color" value="somecolor" 
-            title="Color" onfocus="somecolormsg()" onclick="somecolormsg()" />
-            Some color
-            <br />
-
-            <img src="../img/bolderandbrighter.png" alt="BorderAndBrighter" width="500" height="373">
-            <br />
-            <input type="radio" id="bolderandbrighter" name="color" value="bolderandbrighter" 
-            title="Color" onfocus="bolderandbrightermsg()" onclick="bolderandbrightermsg()" />
-            Bolder and brighter
-            <br />
-
-          </li>
-
-          <li>I plan to move ___.
-            <br />
             <input type="radio" id="notoften" name="frequency" value="notoften" 
             title="I plan to move" onfocus="notoftenmsg()" onclick="notoftenmsg()" />
             Not often
@@ -171,13 +180,12 @@
             <input type="radio" id="often" name="frequency" value="often" 
             title="I plan to move" onfocus="oftenmsg()" onclick="oftenmsg()()" />
             Often
+            
+            <br />
             <br />
 
-          </li>
-
-
-          <li>I am designing for a ___.
-            <br />
+          <li>I am designing for a ___.</li>
+            
             <input type="radio" id="home" name="housetype" value="home" 
             title="I am designing for a" onfocus="homemsg()" onclick="homemsg()" />
             Home
@@ -189,80 +197,109 @@
             <input type="radio" id="other" name="housetype" value="other" 
             title="I am designing for a" onfocus="othermsg()" onclick="othermsg()()" />
             Other
-            <br />
-
-          </li>
-
-          <li>Please select the image you prefer the most.
             
             <br />
-            <img src="../img/prefer_first.png" alt="PreferFirst" width="500" height="333">
-            <br />
-            <input type="radio" id="first" name="prefer" value="first" 
-            title="Prefer" onfocus="firstmsg()" onclick="firstmsg()" />
-            1
-            <br />
+            <br />         
 
-            <img src="../img/prefer_second.png" alt="PreferSecond" width="500" height="313">
-            <br />
-            <input type="radio" id="second" name="prefer" value="second" 
-            title="Prefer" onfocus="secondmsg()" onclick="secondmsg()" />
-            2
-            <br />
+          <li>Please select the image you prefer the most.</li>
 
-            <img src="../img/prefer_third.png" alt="PreferThird" width="500" height="373">
-            <br />
-            <input type="radio" id="third" name="prefer" value="third" 
-            title="Prefer" onfocus="thirdmsg()" onclick="thirdmsg()" />
-            3
-            <br />
+            <div class="row">
 
-            <img src="../img/prefer_fourth.png" alt="PreferFourth" width="500" height="373">
-            <br />
-            <input type="radio" id="fourth" name="prefer" value="fourth" 
-            title="Prefer" onfocus="fourthmsg()" onclick="fourthmsg()" />
-            4
-            <br />
+                <div class="col-lg-3">
+                    <img src="../img/prefer_first.png" alt="PreferFirst" width="250px" height="150px">
+                    <br />
+                    <input type="radio" id="first" name="prefer" value="first" 
+                    title="Prefer" onfocus="firstmsg()" onclick="firstmsg()" />
+                    1
 
-          </li>
+                </div>
+                <div class="col-lg-3">
+                    <img src="../img/prefer_second.png" alt="PreferSecond" width="250px" height="150px">
+                    <br />
+                    <input type="radio" id="second" name="prefer" value="second" 
+                    title="Prefer" onfocus="secondmsg()" onclick="secondmsg()" />
+                    2
+                   
 
-          <li>Please select your favorite collection of items.
+                </div>
+                <div class="col-lg-3">
+                    <img src="../img/prefer_third.png" alt="PreferThird" width="250px" height="150px">
+                    <br />
+                    <input type="radio" id="third" name="prefer" value="third" 
+                    title="Prefer" onfocus="thirdmsg()" onclick="thirdmsg()" />
+                    3
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="../img/prefer_fourth.png" alt="PreferFourth" width="250px" height="150px">
+                    <br />
+                    <input type="radio" id="fourth" name="prefer" value="fourth" 
+                    title="Prefer" onfocus="fourthmsg()" onclick="fourthmsg()" />
+                    4
+                </div>
+            </div>
+
+
+
             
             <br />
-            <img src="../img/collection_first.png" alt="CollectionFirst" width="269" height="500">
-            <br />
-            <input type="radio" id="first" name="collection" value="first" 
-            title="Collection" onfocus="firstmsg()" onclick="firstmsg()" />
-            1
-            <br />
+            
 
-            <img src="../img/collection_second.png" alt="CollectionSecond" width="269" height="500">
-            <br />
-            <input type="radio" id="second" name="collection" value="second" 
-            title="Collection" onfocus="secondmsg()" onclick="secondmsg()" />
-            2
-            <br />
+           
 
-            <img src="../img/collection_third.png" alt="CollectionThird" width="269" height="500">
-            <br />
-            <input type="radio" id="third" name="collection" value="third" 
-            title="Collection" onfocus="thirdmsg()" onclick="thirdmsg()" />
-            3
-            <br />
+          
 
-            <img src="../img/collection_fourth.png" alt="CollectionFourth" width="269" height="500">
-            <br />
-            <input type="radio" id="fourth" name="collection" value="fourth" 
-            title="Collection" onfocus="fourthmsg()" onclick="fourthmsg()" />
-            4
-            <br />
+          <li>Please select your favorite collection of items.</li>
 
-          </li>
 
+            <div class="row">
+
+                   <div class="col-lg-3">
+                     <img src="../img/collection_first.png" alt="CollectionFirst" width="200px" height="300px">
+                    <br />
+                    <input type="radio" id="first" name="collection" value="first" 
+                    title="Collection" onfocus="firstmsg()" onclick="firstmsg()" />
+                    1
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="../img/collection_second.png" alt="CollectionSecond" width="200px" height="300px">
+                    <br />
+                    <input type="radio" id="second" name="collection" value="second" 
+                    title="Collection" onfocus="secondmsg()" onclick="secondmsg()" />
+                    2
+                   
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="../img/collection_third.png" alt="CollectionThird" width="200px" height="300px">
+                    <br />
+                    <input type="radio" id="third" name="collection" value="third" 
+                    title="Collection" onfocus="thirdmsg()" onclick="thirdmsg()" />
+                    3
+
+                </div>
+                <div class="col-lg-3">
+                   <img src="../img/collection_fourth.png" alt="CollectionFourth" width="200px" height="300px">
+                    <br />
+                    <input type="radio" id="fourth" name="collection" value="fourth" 
+                    title="Collection" onfocus="fourthmsg()" onclick="fourthmsg()" />
+                    4
+                </div>
+            </div>
+        
+            <br />
+           
+          
         </ol> 
-        <a href="gallery.html" class="btn btn-default btn-lg"> <span class="network-name">Submit</span></a> 
+        <div style="text-align: center;">
+            
+            <a href="platform.html" class="btn btn-default btn-lg" > <span class="network-name">Submit</span></a> 
 
-
+        </div>
+        
+        <br />
+        <br />
 		
 	</div>
 	<!-- -->
@@ -278,15 +315,15 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="../index.html">About</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="../index.html">Services</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="contact.html">Contact</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; Design-it 2016. All Rights Reserved</p>
@@ -296,10 +333,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 
